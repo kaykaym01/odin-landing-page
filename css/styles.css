@@ -153,7 +153,7 @@ Call to Action
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 200px;
+    margin: 70px 200px;
     background-color: #3882F6;
     color: white;
     border-radius: 8px;
@@ -166,4 +166,15 @@ Call to Action
 
 .call-to-action-container button{
     border: solid 2px white;
+}
+
+/** 
+Footer
+**/
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
 }
