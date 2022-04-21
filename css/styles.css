@@ -91,3 +91,29 @@ Intro
     text-align: center;
     border: none;
 }
+
+/**
+Info
+**/
+.info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 30px 100px;
+}
+
+.info-content{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: solid 5px #3882F6;
+    border-radius: 16px;
+}
