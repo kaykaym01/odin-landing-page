@@ -117,3 +117,30 @@ Info
     border: solid 5px #3882F6;
     border-radius: 16px;
 }
+
+/**
+Quote
+**/
+
+.quote-container{
+    padding: 100px 250px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+.quote-speaker{
+    margin: 0;
+    padding: 0 10px;
+    font-weight: bold;
+    text-align: right;
+}
