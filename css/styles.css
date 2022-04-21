@@ -86,7 +86,7 @@ Intro
     background-color: #3882F6;
     color: white;
     font-weight: bold;
-    padding: 8px 16px;
+    padding: 8px 24px;
     border-radius: 8px;
     text-align: center;
     border: none;
@@ -143,4 +143,27 @@ Quote
     padding: 0 10px;
     font-weight: bold;
     text-align: right;
+}
+
+/**
+Call to Action
+**/
+
+.call-to-action-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 200px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 16px 100px;
+}
+
+.call-to-action p{
+    margin: 2px;
+}
+
+.call-to-action-container button{
+    border: solid 2px white;
 }
